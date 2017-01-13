@@ -1,0 +1,93 @@
+
+h1 {
+display: none;
+}
+
+title {
+    display: none;
+}
+
+.logo{
+    float: left;
+    width: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.cart{
+    float: right;
+    width: 60px;
+    margin-top: 15px;
+}
+
+.hero {
+    text-align: center;
+    color: white;
+    font-family: "Raleway web", sans-serif;
+    font-size:25px;
+    background: url('assets/images/banner-girl.png')no-repeat center bottom , url('assets/images/flower-bkgd.jpg') repeat;
+    background-size: 20%, 65%;
+    background-position-y: -20px; 
+    height: 510px;
+    width: cover;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.collection {
+    padding-top: 180px;
+}
+
+.spring {
+    margin: 10px;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.styles {
+    margin-top: 60px;
+}
+
+.products {
+    border: 10px;
+    margin-top: 60px;
+}
+
+.container {
+    width: 1240 px;
+    text-align: center; 
+    position: inline-block;
+  
+    
+    
+}
+
+
+h3 {
+    color: #e2574c;
+    font: "Raleway web", sans-serif;
+}
+
+ul{ 
+  list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    position: center;
+    width: 18em;
+}
+
+
+a:hover{
+    color: #e2574c;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
