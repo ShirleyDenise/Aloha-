@@ -133,7 +133,7 @@
 }
 
 body {
-    font-family: "ralewaymedium", sans-serif;
+    font-family: "ralewaylight", sans-serif;
     margin: 0 auto;
     max-width: 100%;
     overflow-x: hidden;
@@ -167,12 +167,9 @@ title {
 /*Body*/
 
 .container {
-    width: cover;
+    
     text-align: center; 
-    position: inline-block;
-   
-      
-}
+    }
 
 /*Banner*/
 
@@ -198,7 +195,7 @@ title {
 
 .spring {
     margin: 10px;
-    margin-top: 30px;
+    padding-top: 0px;
     font-size: 50px;
     font-family: "playfair_displayregular", sans-serif;
 }
@@ -208,6 +205,28 @@ title {
     border-bottom: 1px solid #d7d7d7;
     
 }
+
+/*Bio*/
+ 
+ h2 {
+     font-family: "playfair_displayitalic", sans-serif;
+     color: black;
+     font-size: 34px;
+     font-style: italic;
+     
+ }
+
+ .styles p {
+     font-family:"ralewaylight", sans-serif;
+     font-size: 16px;
+     margin: 7px;
+     margin-bottom: 50px;
+     word-spacing: 30%;
+     line-height: 200%;
+     
+     
+ }
+
 
 /*Products*/
 
@@ -227,20 +246,32 @@ title {
     width: 300px;
     height:300px;
     text-align: center;
-    padding-right: none;
+    
+    
+   
 
 }
 
 
 .products, .price {
+    font-family: "ralewaylight";
     color: #969696;
     font-weight: bold;
+    
 }
 
+.product-cat {
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.price {
+    font-size: 14px;
+}
 
 h3 {
     color: #e2574c;
-    font-family: "ralewaylight", sans-serif;
+    font-family: "playfair_displayregular", sans-serif;
 }
 
 ul { 
