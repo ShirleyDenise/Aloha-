@@ -232,9 +232,15 @@ title {
 }
 
 
+.products, .price {
+    color: #969696;
+    font-weight: bold;
+}
+
+
 h3 {
     color: #e2574c;
-    font: "Raleway web", sans-serif;
+    font-family: "ralewaylight", sans-serif;
 }
 
 ul { 
