@@ -137,6 +137,7 @@ body {
     margin: 0 auto;
     max-width: 100%;
     overflow-x: hidden;
+    
 }
 
 h1 {
@@ -151,16 +152,16 @@ title {
 
 .logo {
     float: left;
-    width: 160px;
-    margin-top: 20px;
-    margin-left: 20px;
+    width: 130px;
+    margin-top: 13px;
+    margin-left: 13px;
     
 }
 
 .cart {
     float: right;
-    width: 60px;
-    margin-top: 20px;
+    width: 55px;
+    margin-top: 13px;
     margin-right: 8px;
 }
 
@@ -188,6 +189,7 @@ title {
 
 .collection {
     padding-top: 200px;
+    margin-top: 10px;
     text-transform: uppercase;
     font-family: "ralewaymedium", sans-serif;
      
@@ -213,15 +215,21 @@ title {
      color: black;
      font-size: 34px;
      font-style: italic;
+     font-weight: normal;
      
  }
+
+.bold-regular {
+    font-family: "playfair_displaybold", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
 
  .styles p {
      font-family:"ralewaylight", sans-serif;
      font-size: 16px;
      margin: 7px;
      margin-bottom: 50px;
-     word-spacing: 30%;
      line-height: 200%;
      
      
@@ -272,6 +280,7 @@ title {
 h3 {
     color: #e2574c;
     font-family: "playfair_displayregular", sans-serif;
+    font-size: 20px;
 }
 
 ul { 
@@ -293,12 +302,31 @@ ul {
     background-size: 70px cover;
     background-position: bottom;
     height: 340px;
-    width: cover;
     color: white;
-    font-family: 
     text-shadow: 0.5px 0.5px 20px black;
     font-size: 20px; 
+    margin-bottom: 8px;
 }
+
+.subscribe-title {
+    font-size: 35px;
+    margin: 20px; 
+    padding-top: 60px;
+    font-family: "playfair_displayitalic", sans-serif;
+    color: white;
+    font-size: 34px;
+    font-style: italic;
+}
+
+.subscribe-text {
+    font-family:"ralewaylight", sans-serif;
+    font-size: 16px;
+    word-spacing: 30%;
+    line-height: 200%;
+    font-weight: normal;
+}
+
+/*Form Button*/
 
 .subscribe {
     width: 400px;
@@ -306,34 +334,36 @@ ul {
     display: inline-block;
     background-color: white;
     border-radius: 20px;
+    
 }
 
 input[type="email"] {
+  clear: both;
   padding: 10px;
+  float: left;
   border: none;
+  border-radius: 20px;
+  margin-left: 20px;
   font-size: 80%;
   box-shadow: 0;
+  outline: 0;
     
 }
 
 input[type="submit"] {
+    clear: before;
+    float: right;
+    margin: 3px;
     background-color: #e2574c;
+    font-size: 80%;
     color: white;
-    height: 38px;
-    width: 102px;
-    position: absolute;
+    height: 37px;
+    width: 110px;
     border: none;
     border-radius: 20px;
+    outline: 0;
+    cursor: pointer;
 }
-
-.footer-title {
-    font-size: 35px;
-    margin: 20px; 
-    padding-top: 60px;
-}
-
-
-
 
 
 /*Footer*/
@@ -342,26 +372,43 @@ input[type="submit"] {
 .footer{
     list-style: none;
     background-color: #242424;
+    font-family: "playfair_displayregular", sans-serif;
     color: white;
-    height: 300px;
-    margin-top: -8px;
+    height: 200px;
     text-align: center;
+    padding: 10% 0;
+    line-height: 300%;
     
     
 }
 
 .social-media li{
+    list-style-type:none;
     display: inline-block;
-    text-align: center;
-    margin-right: 15px;
-    padding: -20px;
-    height: 7px;
-    width: 7px;
+    margin-right: 10px; 
+    line-height: 50%;
+    font-size: 15px;
 }
 
 
 a{
     color: white;
+}
+
+.copyright{
+    line-height: 50%;
+    font-size: 14px;
+}
+
+.contact{
+    font-size: 14px;
+}
+
+
+.address{
+    color: #969696;
+    line-height: 50%;
+    font-size: 14px;
 }
 
 a:hover{
