@@ -178,7 +178,7 @@ title {
     text-align: center;
     clear: both;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url('images/banner-girl.png') no-repeat center 70px, 
                 url('images/flower-bkgd.jpg') repeat-x center top;
     background-size: cover, 180px, cover; 
@@ -198,7 +198,7 @@ title {
 .spring {
     margin: 10px;
     padding-top: 0px;
-    font-size: 50px;
+    font-size: 40px;
     font-family: "playfair_displayregular", sans-serif;
 }
 
@@ -265,12 +265,14 @@ title {
     font-family: "ralewaylight";
     color: #969696;
     font-weight: bold;
+    margin: 8%;
     
 }
 
 .product-cat {
     font-size: 11px;
     text-transform: uppercase;
+    margin: 8%;
 }
 
 .price {
@@ -304,7 +306,8 @@ ul {
     height: 340px;
     color: white;
     text-shadow: 0.5px 0.5px 20px black;
-    font-size: 20px; 
+    font-size: 20px;
+    line-height: 200%; 
     margin-bottom: 8px;
 }
 
@@ -329,16 +332,17 @@ ul {
 /*Form Button*/
 
 .subscribe {
+    clear: both;
     width: 400px;
     height: 40px;
     display: inline-block;
+    margin-top: 5%;
     background-color: white;
     border-radius: 20px;
     
 }
 
 input[type="email"] {
-  clear: both;
   padding: 10px;
   float: left;
   border: none;
@@ -351,7 +355,6 @@ input[type="email"] {
 }
 
 input[type="submit"] {
-    clear: before;
     float: right;
     margin: 3px;
     background-color: #e2574c;
@@ -382,9 +385,12 @@ input[type="submit"] {
     
 }
 
+
+
 .social-media li{
     list-style-type:none;
     display: inline-block;
+    padding: -10px;
     margin-right: 10px; 
     line-height: 50%;
     font-size: 15px;
@@ -396,18 +402,18 @@ a{
 }
 
 .copyright{
-    line-height: 50%;
-    font-size: 14px;
+    line-height: 140%;
+    font-size: 15px;
 }
 
 .contact{
-    font-size: 14px;
+    font-size: 15px;
 }
 
 
 .address{
     color: #969696;
-    line-height: 50%;
+    line-height: 140%;
     font-size: 14px;
 }
 
@@ -418,15 +424,65 @@ a:hover{
 
 
 
-/* Breakpoints */
+/* Breakpoints Tab */
 
-@media all and (min-width: 480px) {
+@media all and (min-width: 600px) {
 
-  
+  /*Footer*/
+
+.footer{
+    list-style: none;
+    background-color: #242424;
+    font-family: "playfair_displayregular", sans-serif;
+    color: white;
+    height: 200px;
+    text-align: left;
+    padding: 10% 0;
+    line-height: 300%;
+    
+    
+}
+
+.social-media li{
+    list-style-type:none;
+    display: block;
+    padding: -10px;
+    margin-right: 10px; 
+    line-height: 50%;
+    font-size: 15px;
+}
+
 
 }
 
-@media all and (min-width: 720px) {
+/* Breakpoints Desk */
+
+    /*Footer*/
+
+@media all and (min-width: 1240px) {
+
+.footer{
+    list-style: none;
+    background-color: #242424;
+    font-family: "playfair_displayregular", sans-serif;
+    color: white;
+    height: 200px;
+    text-align: left;
+    padding: 10% 0;
+    line-height: 300%;
+    
+    
+}
+
+.social-media li{
+    list-style-type:none;
+    text-align: right;
+    display: block;
+    padding: -10px;
+    margin-right: 10px; 
+    line-height: 50%;
+    font-size: 15px;
+}
 
    
 }
