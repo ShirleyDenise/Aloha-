@@ -615,13 +615,13 @@ h3 {
 
 /*Footer*/
 
-.footer{
+.copyright .contact .address{
+    clear: both;
     list-style: none;
     height: 200px;
     text-align: left;
     padding: 10% 0;
     line-height: 300%;
-    overflow: auto;
     
     
 }
