@@ -445,9 +445,7 @@ a:hover{
 .social-media {
     list-style-type:none;
     display: block;
-    padding: -10px;
     margin-right: 10px; 
-    line-height: 50%;
     font-size: 15px;
 }
 
@@ -632,9 +630,8 @@ ul {
 
 .social-media {
     display: block;
-    list-style-type:none;
     float: right;
-    padding: 10px;
+    padding: 0px;
     margin-right: 10px; 
     font-size: 15px;
 }
