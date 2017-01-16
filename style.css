@@ -459,9 +459,6 @@ a:hover{
 /* Breakpoints Desk */
 
 
-
-    /*Footer*/
-
 @media all and (min-width: 1240px) {
 
 /*Nav*/
@@ -584,6 +581,43 @@ h3 {
     margin: 15px; 
     width: 14em;
 }
+
+/*Sign-upr*/
+
+.sign-up {
+    clear: both;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), 
+                url("images/wave-bkgd.jpg") no-repeat center;
+    background-size: 70px cover;
+    background-position: bottom;
+    height: 340px;
+    color: white;
+    text-shadow: 0.5px 0.5px 20px black;
+    font-size: 20px;
+    line-height: 200%; 
+    margin-bottom: 8px;
+    overflow: auto;
+}
+
+.subscribe-title {
+    font-size: 50px;
+    margin: 10px; 
+    padding-top: 35px;
+    font-family: "playfair_displayitalic", sans-serif;
+    color: white;
+    font-size: 34px;
+    font-style: italic;
+}
+
+.subscribe-text {
+    font-family:"ralewaylight", sans-serif;
+    font-size: 16px;
+    word-spacing: 30%;
+    line-height: 200%;
+    font-weight: normal;
+}
+
+
 
 
 
