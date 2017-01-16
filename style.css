@@ -285,10 +285,7 @@ h3 {
     font-size: 20px;
 }
 
-ul { 
-  list-style-type: none;
-  display: inline-block;
-}
+
 
 .products li {
     display: inline-block; 
@@ -425,6 +422,7 @@ a:hover{
 
 
 
+
 /* Breakpoints Tab */
 
 @media all and (min-width: 600px) {
@@ -444,7 +442,7 @@ a:hover{
     
 }
 
-.social-media li{
+.social-media {
     list-style-type:none;
     display: block;
     padding: -10px;
@@ -615,26 +613,34 @@ h3 {
 
 /*Footer*/
 
+
 .copyright .contact .address{
     clear: both;
     list-style: none;
     height: 200px;
-    text-align: left;
+    float: left;
     padding: 10% 0;
     line-height: 300%;
     
     
 }
+ul { 
+  clear: both;
+  list-style-type: none;
+  display: block;
+}
 
-.social-media li{
-    list-style-type:none;
-    text-align: right;
+.social-media {
     display: block;
-    padding: -10px;
+    list-style-type:none;
+    float: right;
+    padding: 10px;
     margin-right: 10px; 
-    line-height: 50%;
     font-size: 15px;
+}
+.social-media a{
+    text-decoration: none;
 }
 
    
-}
+}   
