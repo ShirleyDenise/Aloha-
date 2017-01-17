@@ -125,12 +125,6 @@
 /* CSS */
 
 
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-    clear: both;
-}
 
 body {
     font-family: "ralewaylight", sans-serif;
@@ -145,23 +139,26 @@ display: none;
 }
 
 title {
-    display: none;
+display: none;
 }
 
 /*Nav*/
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    
+}
+
 .logo {
-    float: left;
-    width: 130px;
-    margin-top: 13px;
+    width: 120px;
     margin-left: 13px;
     
 }
 
 .cart {
-    float: right;
-    width: 55px;
-    margin-top: 13px;
+    width: 50px;
     margin-right: 8px;
 }
 
@@ -176,7 +173,6 @@ title {
 
 .hero {
     text-align: center;
-    clear: both;
     color: white;
     font-size: 20px;
     background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url('images/banner-girl.png') no-repeat center 70px, 
@@ -232,6 +228,12 @@ title {
      margin-bottom: 50px;
      line-height: 200%;
      
+     
+ }
+
+ /* Menu Products*/
+
+ .menu-products{
      
  }
 
@@ -295,7 +297,6 @@ h3 {
 /*Sign-upr*/
 
 .sign-up {
-    clear: both;
     background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), 
                 url("images/wave-bkgd.jpg") no-repeat center;
     background-size: 70px cover;
@@ -329,11 +330,16 @@ h3 {
 
 /*Form Button*/
 
+.form {
+    display: flex;
+    justify-content: center;
+}
+
 .subscribe {
-    clear: both;
+    display: flex;
+    justify-content: space-between;
     width: 400px;
     height: 40px;
-    display: inline-block;
     margin-top: 5%;
     background-color: white;
     border-radius: 20px;
@@ -341,11 +347,10 @@ h3 {
 }
 
 input[type="email"] {
-  padding: 10px;
-  float: left;
+  padding: 2px;
   border: none;
   border-radius: 20px;
-  margin-left: 20px;
+  margin-left: 3px;
   font-size: 80%;
   box-shadow: 0;
   outline: 0;
@@ -353,7 +358,7 @@ input[type="email"] {
 }
 
 input[type="submit"] {
-    float: right;
+   
     margin: 3px;
     background-color: #e2574c;
     font-size: 80%;
@@ -383,15 +388,17 @@ input[type="submit"] {
     
 }
 
-
-
 .social-media li{
     list-style-type:none;
     display: inline-block;
     padding: -10px;
     margin-right: 10px; 
     line-height: 50%;
-    font-size: 15px;
+    
+}
+
+.social-name{
+    font-size: 0px;
 }
 
 
@@ -611,32 +618,43 @@ h3 {
 
 /*Footer*/
 
-
-.copyright .contact .address{
-    clear: both;
-    list-style: none;
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     height: 200px;
-    float: left;
-    padding: 10% 0;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    }
+
+
+.contact-footer{
+    height: 200px;
     line-height: 300%;
+    margin-left: 30px;
     
     
 }
-ul { 
-  clear: both;
-  list-style-type: none;
-  display: block;
+
+.copyright .contact{
+    font-size: 18px;
+}
+
+.address{
+    color: #969696;
+    line-height: 140%;
+    font-size: 14px;
 }
 
 .social-media {
-    display: block;
-    float: right;
-    padding: 0px;
+    display: flex;
+    flex-direction: column;
     margin-right: 10px; 
     font-size: 15px;
 }
 .social-media a{
     text-decoration: none;
+    font-size: 15px;
 }
 
    
