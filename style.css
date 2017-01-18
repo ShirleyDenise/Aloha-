@@ -233,10 +233,71 @@ display: none;
 
  /* Menu Products*/
 
- .menu-products{
+ .menu-products {
+     display: flex;
+     flex-flow: column wrap; 
+     justify-content: center;
+     position: relative;
      
  }
 
+.image-cat {
+    justify-content: space-between;
+    
+}
+
+ .men-cat {
+    background: url('images/mens-category.jpg')  no-repeat center center;
+    background-size: 100% contain;
+    padding: 150px;
+    margin: 0;
+  
+ }
+
+ .trends-cat {
+    background: url('images/trends-category.jpg')  no-repeat center center;
+    background-size: 50% contain;
+    padding: 150px;
+    margin: 0;
+
+    
+ }
+
+ .glasses-cat {
+     background: url('images/glasses-category.jpg')  no-repeat center center;
+     background-size: 50% contain;
+     padding: 150px;
+     margin: 0;
+   
+    
+ }
+
+.sale-cat {
+    background: url('images/sale-category.jpg')  no-repeat center center;
+    background-size: 50% contain;
+    padding: 150px;
+    margin: 0;
+ 
+
+}
+
+.bags-cat{
+    background: url('images/bags-category.jpg')  no-repeat center center;
+    background-size: 50% contain;
+    padding: 150px;
+    margin: 0;
+    
+
+}
+
+.women-cat{
+    background: url('images/womens-category.jpg')  no-repeat center center;
+    background-size: 100% contain;
+    padding: 150px;
+    margin: 0;
+    
+
+}
 
 /*Products*/
 
@@ -255,10 +316,7 @@ display: none;
 .i {
     width: 300px;
     height:300px;
-    text-align: center;
-    
-    
-   
+    text-align: center;   
 
 }
 
@@ -338,7 +396,7 @@ h3 {
 .subscribe {
     display: flex;
     justify-content: space-between;
-    width: 400px;
+    width: 80%;
     height: 40px;
     margin-top: 5%;
     background-color: white;
@@ -350,8 +408,8 @@ input[type="email"] {
   padding: 2px;
   border: none;
   border-radius: 20px;
-  margin-left: 3px;
-  font-size: 80%;
+  margin-left: 10px;
+  font-size: 70%;
   box-shadow: 0;
   outline: 0;
     
@@ -361,7 +419,7 @@ input[type="submit"] {
    
     margin: 3px;
     background-color: #e2574c;
-    font-size: 80%;
+    font-size: 70%;
     color: white;
     height: 33px;
     width: 110px;
