@@ -9,14 +9,25 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <script src="https://use.fontawesome.com/75f5ac9bf1.js"></script>
     </head>
-
+    
+<body>
     <header class="nav">
         <h1>Aloha</h1>
-        <img class="logo" src="images/aloha-logo.svg" alt="logo">
-        <img class="cart" src="images/cart-icon.svg" alt="cart">
+        <div class="logo">
+            <img class="logo" src="images/aloha-logo.svg" alt="logo">
+        </div>
+        <div class="cart">
+            <img class="cart" src="images/cart-icon.svg" alt="cart">
+        </div>
+        <nav class="main nav">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Featured</a></li>
+                <li><a href="#">Updates</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <body>
         <div class="container">
             <section class="hero">
                 <p class="collection">New Collection</p>
@@ -50,39 +61,40 @@
             <section class="products">
                 <h2>Most-Loved <span class="bold-regular">Products</span></h2>
                     <div class="list-products">
-                        <li>
-                        <img class="i" src="images/stretch-knit-dress.jpg" alt="stretch-knit-dress">   
-                        <p class="product-cat">Dresses</p>
-                        <h3>Stretch Knit Dress</h3>
-                        <p class="price">$169.00</p>
-                        </li>
+                        <ul>
+                            <li>
+                            <img class="i" src="images/stretch-knit-dress.jpg" alt="stretch-knit-dress">   
+                            <p class="product-cat">Dresses</p>
+                            <h3>Stretch Knit Dress</h3>
+                            <p class="price">$169.00</p>
+                            </li>
 
-                        <li>
-                        <img class="i" src="images/cotton-blue-shirt.jpg" alt="cotton-blue-shirt">
-                        <p class="product-cat">Shirts</p>
-                        <h3>Cotton Blue Shirt</h3>
-                        <p class="price">$89.00</p>
-                        </li>
+                            <li>
+                            <img class="i" src="images/cotton-blue-shirt.jpg" alt="cotton-blue-shirt">
+                            <p class="product-cat">Shirts</p>
+                            <h3>Cotton Blue Shirt</h3>
+                            <p class="price">$89.00</p>
+                            </li>
 
-                        <li>
-                        <img class="i" src="images/checked-stretch-dress.jpg" alt="checked-stretch-dress">
-                        <p class="product-cat">Dresses</p>
-                        <h3>Checked Stretch Dress</h3>
-                        <p class="price">$129.00</p>
-                        </li>
+                            <li>
+                            <img class="i" src="images/checked-stretch-dress.jpg" alt="checked-stretch-dress">
+                            <p class="product-cat">Dresses</p>
+                            <h3>Checked Stretch Dress</h3>
+                            <p class="price">$129.00</p>
+                            </li>
 
-                        <li>
-                        <img class="i" src="images/blue-hipster-backpack.jpg" alt="blue-hipster-backpack">
-                        <p class="product-cat">Bags</p>
-                        <h3>Blue Hipster Backpack</h3>
-                        <p class="price">$69.00</p>
-                        </li>
-
+                            <li>
+                            <img class="i" src="images/blue-hipster-backpack.jpg" alt="blue-hipster-backpack">
+                            <p class="product-cat">Bags</p>
+                            <h3>Blue Hipster Backpack</h3>
+                            <p class="price">$69.00</p>
+                            </li>
+                        </ul>
                     </div>
             </section>
 
             <section class="sign-up">
-                <p class="subscribe-title">Sign-up for <span class="bold-regular">Updates</p>
+                <p class="subscribe-title">Sign-up for <span class="bold-regular">>Updates</span></p>
                 <p class="subscribe-text">Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
                 <div class="form">
                     <form class="subscribe">
@@ -136,7 +148,7 @@
     </footer>
      <script src=jquery-3.1.1.min.js></script>
     <script src="main.js"></script>
-    </body>
+   </body>
     
    
 </html>
