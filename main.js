@@ -1,5 +1,3 @@
-$('subscribe').on('submit', function(event) {
-   event.preventDefault();
-      alert('Thanks for subscribing!');
-   }
+$("form").submit(function(){
+    alert("Thanks for subscribing");
 });

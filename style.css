@@ -124,7 +124,7 @@
 
 /* CSS */
 
-
+/*Body*/
 
 body {
     font-family: "raleway_web", sans-serif;
@@ -142,32 +142,58 @@ title {
 display: none;
 }
 
+.container {
+    
+    text-align: center; 
+    }
+
 /*Nav*/
 
 .nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     height: 60px;
     
 }
 
 .logo {
+    align-self: flex-start;
+    order: 1;
+    flex: 1;
     width: 120px;
     margin-left: 13px;
+    
     
 }
 
 .cart {
+    align-self: flex-end;
+    order: 2;
+    flex: 1;
     width: 50px;
     margin-right: 8px;
 }
 
-/*Body*/
+.main-nav {
+    order: 3;
+}
 
-.container {
-    
-    text-align: center; 
-    }
+.main-nav ul {
+   display: flex;
+   flex-direction: row; 
+   
+}
+
+ul{
+    justify-content: space-around;
+}
+
+.main-nav a {
+color: #e2574c;
+}
+
+
 
 /*Banner*/
 
@@ -241,6 +267,10 @@ display: none;
      position: relative;
      
  }
+
+ a {
+    color: white;
+}
 
 .image-cat {
     justify-content: space-between;
@@ -465,11 +495,6 @@ input[type="submit"] {
     font-size: 0px;
 }
 
-
-a{
-    color: white;
-}
-
 .copyright{
     line-height: 140%;
     font-size: 15px;
@@ -477,6 +502,11 @@ a{
 
 .contact{
     font-size: 15px;
+}
+
+
+.contact a{
+    color: white;
 }
 
 
