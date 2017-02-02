@@ -124,6 +124,7 @@
 
 /* CSS */
 
+
 /*Body*/
 
 body {
@@ -132,6 +133,12 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 h1 {
@@ -281,19 +288,24 @@ display: none;
  /* Menu Products*/
 
  .menu-products {
-     display: flex;
-     flex-flow: column wrap; 
-     justify-content: center;
+     /*display: flex;*/
+     /*flex-flow: column wrap; 
+     justify-content: center;*/
      position: relative;
      
  }
 
- a {
+ .menu-products a {
     color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .image-cat {
-    justify-content: space-between;
+    display: flex;
+    flex-flow: column wrap;
     margin: 0;
     
     
@@ -301,37 +313,45 @@ display: none;
 
 .small-images {
     flex-flow: row;
+    width: 50%;
+    
 }
 
  .men-cat {
+    flex: 2 0 100%;
     background: url('images/mens-category.jpg')  no-repeat center center;
-    background-size: 100% auto;
+    background-size: 100%, contain;
     padding: 100px;
     margin: 0;
   
- }
+ } 
 
  .trends-cat {
+    
     background: url('images/trends-category.jpg')  no-repeat center center;
-    background-size: 50% auto;
+    background-size: 100%, contain;
     padding: 100px;
     margin: 0;
+    
 
     
  }
 
  .glasses-cat {
+     
      background: url('images/glasses-category.jpg')  no-repeat center center;
-     background-size: 50% auto;
+     background-size: 100% , contain;
      padding: 100px;
      margin: 0;
+   
    
     
  }
 
 .sale-cat {
+    
     background: url('images/sale-category.jpg')  no-repeat center center;
-    background-size: 50% auto;
+    background-size: 100% , contain;
     padding: 100px;
     margin: 0;
  
@@ -339,8 +359,9 @@ display: none;
 }
 
 .bags-cat{
+    
     background: url('images/bags-category.jpg')  no-repeat center center;
-    background-size: 50% auto;
+    background-size: 100% , contain;
     padding: 100px;
     margin: 0;
     
@@ -348,8 +369,9 @@ display: none;
 }
 
 .women-cat{
+    flex: 2 0 100%;
     background: url('images/womens-category.jpg')  no-repeat center center;
-    background-size: 100% auto;
+    background-size: 100% , contain;
     padding: 100px;
     margin: 0;
     
@@ -503,6 +525,7 @@ input[type="submit"] {
 }
 
 .social-media li{
+    
     list-style-type:none;
     display: inline-block;
     padding: -10px;
@@ -510,6 +533,8 @@ input[type="submit"] {
     line-height: 50%;
     
 }
+
+
 
 .social-name{
     font-size: 0px;
