@@ -7,10 +7,12 @@
         <title>Aloha Shop</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="flickity.min.css" />
         <script src="https://use.fontawesome.com/75f5ac9bf1.js"></script>
     </head>
 
 <body>
+    <a class="screen-reader skip-link" href="#main">Skip to content</a>
     <header class="nav">
         <h1>Aloha</h1>
         <div class="logo">
@@ -33,6 +35,8 @@
                 <p class="collection">New Collection</p>
                 <p class="spring">Spring/Summer 2016</p>
             </section>
+            
+            <main id="main" class="site-main" tabindex="-1">
             <section class="styles">
                 <h2>Hand-Crafted <span class="bold-regular">Styles</span></h2>
                 <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
@@ -61,65 +65,61 @@
             <section class="products">
                 <h2>Most-Loved <span class="bold-regular">Products</span></h2>
                     <div class="list-products">
-                        <ul>
-                            <li>
+                            <div class= "carousel-product">
                             <img class="i" src="images/stretch-knit-dress.jpg" alt="stretch-knit-dress">   
                             <p class="product-cat">Dresses</p>
                             <h3>Stretch Knit Dress</h3>
                             <p class="price">$169.00</p>
-                            </li>
+                            </div>
 
-                            <li>
+                            <div class= "carousel-product">
                             <img class="i" src="images/cotton-blue-shirt.jpg" alt="cotton-blue-shirt">
                             <p class="product-cat">Shirts</p>
                             <h3>Cotton Blue Shirt</h3>
                             <p class="price">$89.00</p>
-                            </li>
+                            </div>
 
-                            <li>
+                            <div class= "carousel-product">
                             <img class="i" src="images/checked-stretch-dress.jpg" alt="checked-stretch-dress">
                             <p class="product-cat">Dresses</p>
                             <h3>Checked Stretch Dress</h3>
                             <p class="price">$129.00</p>
-                            </li>
+                            </div>
 
-                            <li>
+                            <div class= "carousel-product">
                             <img class="i" src="images/blue-hipster-backpack.jpg" alt="blue-hipster-backpack">
                             <p class="product-cat">Bags</p>
                             <h3>Blue Hipster Backpack</h3>
                             <p class="price">$69.00</p>
-                            </li>
+                            </div>
 
-                            <li>
+                            <div class= "carousel-product">
                             <img class="i" src="images/demin-overall-shorts.jpg" alt="denim-overall-shorts">   
                             <p class="product-cat">Demin</p>
                             <h3>Demin Overall Shorts</h3>
                             <p class="price">$89.00</p>
-                            </li>
+                            </div>
 
-                            <li>
+                            <div class= "carousel-product">
                             <img class="i" src="images/pink-dotted-dress.jpg" alt="pink-dotted-dress">
                             <p class="product-cat">Dresses</p>
                             <h3>Pink Dotted Dress</h3>
                             <p class="price">$99.00</p>
-                            </li>
+                            </div>
 
-                            <li>
+                            <div class= "carousel-product">
                             <img class="i" src="images/blue-silk-dress.jpg" alt="blue-silk-dress">
                             <p class="product-cat">Dresses</p>
                             <h3>Blue Silk Dress</h3>
                             <p class="price">$119.00</p>
-                            </li>
+                            </div>
 
-                            <li>
+                            <div class= "carousel-product">
                             <img class="i" src="images/cotton-yellow-tshirt.jpg" alt="cotton-yellow-tshirt">
                             <p class="product-cat">Shirts</p>
                             <h3>Cotton Yellow Tshirt</h3>
                             <p class="price">$39.00</p>
-                            </li>
-
-
-                        </ul>
+                            </div>
                     </div>
             </section>
 
@@ -176,8 +176,10 @@
             </li>
         </ul>
     </footer>
+     <script src="flickity.pkgd.min.js"></script>
+     <script src="tota11y.min.js"></script>
      <script src=jquery-3.1.1.min.js></script>
-    <script src="main.js"></script>
+     <script src="main.js"></script>
    </body>
     
    
