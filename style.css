@@ -181,6 +181,7 @@ display: none;
 .main-nav {
     position: relative;
     text-align: center;
+    border-top: 1px solid #d7d7d7;
     width: 100%;
     order: 3;
 }
@@ -188,11 +189,12 @@ display: none;
 .main-nav ul {
    display: flex;
    justify-content: space-around;
-   border-top: 1px solid #d7d7d7;
-   padding-top: 0.7rem;
-   padding-bottom: 0.3rem;
-   width: 100%;
    text-align: center;
+   padding-top: 0.8rem;
+   padding-bottom: 0.3rem;
+   width: 65%;
+   margin-left: 18%;
+   
    
    
    
