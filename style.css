@@ -219,27 +219,28 @@ display: none;
 .hero {
     text-align: center;
     color: white;
-    font-size: 20px;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url('images/banner-girl.png') no-repeat center 70px, 
+    font-size: 18px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url('images/banner-girl.png') no-repeat center 60px, 
                 url('images/flower-bkgd.jpg') repeat-x center top;
-    background-size: cover, 180px, cover; 
+    background-size: cover, 150px, cover; 
     position: relative;
-    height: 480px;
+    height: 400px;
     text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
 }
 
 .collection {
-    padding-top: 200px;
+    padding-top: 160px;
     margin-top: 10px;
     text-transform: uppercase;
     font-family: "raleway_web", sans-serif;
+    font-weight: bold;
      
 }
 
 .spring {
-    margin: 10px;
+    margin: 18px;
     padding-top: 0px;
-    font-size: 40px;
+    font-size: 35px;
     font-family: "playfair_display_web", sans-serif;
 }
 
