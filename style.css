@@ -288,9 +288,6 @@ display: none;
  /* Menu Products*/
 
  .menu-products {
-     /*display: flex;*/
-     /*flex-flow: column wrap; 
-     justify-content: center;*/
      position: relative;
      
  }
@@ -305,65 +302,72 @@ display: none;
 
 .image-cat {
     display: flex;
+    justify-content: center;
     flex-flow: column wrap;
     margin: 0;
+    
     
     
 }
 
 .small-images {
-    flex-flow: row;
-    width: 50%;
+    flex-flow: row wrap;
+
     
 }
 
  .men-cat {
     flex: 2 0 100%;
     background: url('images/mens-category.jpg')  no-repeat center center;
-    background-size: 100%, contain;
+    background-size: cover, cover;
     padding: 100px;
     margin: 0;
+    border: 3px solid white;
   
  } 
 
  .trends-cat {
-    
+    width: 50%;
     background: url('images/trends-category.jpg')  no-repeat center center;
-    background-size: 100%, contain;
+    background-size: cover, cover;
     padding: 100px;
     margin: 0;
+    border: 3px solid white;
     
 
     
  }
 
  .glasses-cat {
-     
+     width: 50%;
      background: url('images/glasses-category.jpg')  no-repeat center center;
-     background-size: 100% , contain;
+     background-size: cover, cover;
      padding: 100px;
      margin: 0;
+     border: 3px solid white;
    
    
     
  }
 
 .sale-cat {
-    
+    width: 50%;
     background: url('images/sale-category.jpg')  no-repeat center center;
-    background-size: 100% , contain;
+    background-size: cover, cover;
     padding: 100px;
     margin: 0;
+    border: 3px solid white;
  
 
 }
 
 .bags-cat{
-    
+    width: 50%;
     background: url('images/bags-category.jpg')  no-repeat center center;
-    background-size: 100% , contain;
+    background-size: cover, cover;
     padding: 100px;
     margin: 0;
+    border: 3px solid white;
     
 
 }
@@ -371,9 +375,10 @@ display: none;
 .women-cat{
     flex: 2 0 100%;
     background: url('images/womens-category.jpg')  no-repeat center center;
-    background-size: 100% , contain;
+    background-size: cover, cover;
     padding: 100px;
     margin: 0;
+    border: 3px solid white;
     
 
 }

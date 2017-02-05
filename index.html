@@ -1,13 +1,15 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+
         <title>Aloha Shop</title>
+
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" href="flickity.min.css" />
+        <link href="flickity.min.css" rel="stylesheet">
         <script src="https://use.fontawesome.com/75f5ac9bf1.js"></script>
     </head>
 
@@ -23,10 +25,10 @@
         </div>
         <nav class="main-nav">
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Featured</a></li>
-                <li><a href="#">Updates</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#updates">Updates</a></li>
             </ul>
         </nav>
     </header>
@@ -37,32 +39,30 @@
             </section>
             
             <main id="main" class="site-main" tabindex="-1">
-            <section class="styles">
+            <section id="about" class="styles">
                 <h2>Hand-Crafted <span class="bold-regular">Styles</span></h2>
                 <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
             </section>
 
             <section class="menu-products">
-                <div class="image-cat">
+                <div id="shop" class="image-cat">
                     <div class="men-cat"><a href="#">Men's</a>
                     </div>
-                        <div class="small-images">
-                            <div class="trends-cat"><a href="#">Trends</a>
-                            </div>
-                            <div class="glasses-cat"><a href="#">Glasses</a>
-                            </div>
-                            <div class="sale-cat"><a href="#">Sale</a>
-                            </div>
-                            <div class="bags-cat"><a href="#">Bags</a>
-                            </div>
-                        </div>
+                    <div class="trends-cat"><a href="#">Trends</a>
+                    </div>
+                    <div class="glasses-cat"><a href="#">Glasses</a>
+                    </div>
+                    <div class="sale-cat"><a href="#">Sale</a>
+                    </div>
+                    <div class="bags-cat"><a href="#">Bags</a>
+                    </div>
                     <div class="women-cat"><a href="#">Women's</a>
                     </div>
                 </div>
             </section>
 
 
-            <section class="products">
+            <section id="featured" class="products">
                 <h2>Most-Loved <span class="bold-regular">Products</span></h2>
                     <div class="list-products">
                             <div class= "carousel-product">
@@ -123,7 +123,7 @@
                     </div>
             </section>
 
-            <section class="sign-up">
+            <section id="updates" class="sign-up">
                 <p class="subscribe-title">Sign-up for <span class="bold-regular">>Updates</span></p>
                 <p class="subscribe-text">Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
                 <div class="form">
@@ -176,9 +176,9 @@
             </li>
         </ul>
     </footer>
+    <script src=jquery-3.1.1.min.js></script>
      <script src="flickity.pkgd.min.js"></script>
      <script src="tota11y.min.js"></script>
-     <script src=jquery-3.1.1.min.js></script>
      <script src="main.js"></script>
    </body>
     
