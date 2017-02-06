@@ -29,7 +29,7 @@ function pageJump(id) {
 
          }, 'slow');
 };
-$('.navlink_names').on('click', function(e) {
+$('.main-nav').on('click', function(e) {
           e.preventDefault();
                 var hashHref = $(this).attr('href');
 
