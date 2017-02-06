@@ -249,7 +249,7 @@ display: none;
     margin: 18px;
     padding-top: 0px;
     font-size: 35px;
-    font-family: "playfair_display_web", sans-serif;
+    font-family: "playfair_display_web", serif;
 }
 
 /*Bio*/
@@ -261,7 +261,7 @@ display: none;
 }
  
  h2 {
-     font-family: "playfair_display_web", sans-serif;
+     font-family: "playfair_display_web", serif;
      color: black;
      font-size: 34px;
      font-style: italic;
@@ -270,7 +270,7 @@ display: none;
  }
 
 .bold-regular {
-    font-family: "playfair_display_web", sans-serif;
+    font-family: "playfair_display_web", serif;
     font-style: normal;
     font-weight: bold;
 }
@@ -395,7 +395,7 @@ display: none;
 
 
 .products, .price {
-    font-family: "raleway_web";
+    font-family: "raleway_web", sans-serif;
     color: #969696;
     font-weight: bold;
     margin: 8%;
@@ -415,7 +415,7 @@ display: none;
 
 h3 {
     color: #e2574c;
-    font-family: "playfair_display_web", sans-serif;
+    font-family: "playfair_display_web", serif;
     font-weight: normal;
     font-size: 20px;
 }
@@ -447,7 +447,7 @@ h3 {
     font-size: 35px;
     margin: 20px; 
     padding-top: 60px;
-    font-family: "playfair_display_web", sans-serif;
+    font-family: "playfair_display_web", serif;
     color: white;
     font-size: 34px;
     font-style: italic;
@@ -510,7 +510,7 @@ input[type="submit"] {
 .footer{
     list-style: none;
     background-color: #242424;
-    font-family: "playfair_display_web", sans-serif;
+    font-family: "playfair_display_web", serif;
     color: white;
     height: 200px;
     text-align: center;
@@ -616,7 +616,7 @@ a:hover{
     justify-content: space-between;
     list-style: none;
     background-color: #242424;
-    font-family: "playfair_display_web", sans-serif;
+    font-family: "playfair_display_web", serif;
     color: white;
     height: 200px;
     text-align: left;
