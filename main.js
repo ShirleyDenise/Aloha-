@@ -23,18 +23,18 @@ $("form").submit(function(){
 
 //smooth scrolling
 
-// function pageJump(id) {
-//        $('html,body').animate({
-//                  scrollTop: $(id).offset().top - 150
+function pageJump(id) {
+       $('html,body').animate({
+                 scrollTop: $(id).offset().top - 150
 
-//          }, 'slow');
-// };
-// $('.navlink_names').on('click', function(e) {
-//           e.preventDefault();
-//                 var hashHref = $(this).attr('href');
+         }, 'slow');
+};
+$('.navlink_names').on('click', function(e) {
+          e.preventDefault();
+                var hashHref = $(this).attr('href');
 
-//                 pageJump(hashHref);
-// });
+                pageJump(hashHref);
+});
 
 
 
