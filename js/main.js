@@ -6,7 +6,7 @@ $("form").submit(function(){
 });
 
 
-//items
+//flickity
    
 
         
