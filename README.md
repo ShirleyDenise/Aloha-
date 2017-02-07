@@ -13,7 +13,9 @@ Flexbox, Mobile-first responsive layout, Smooth scrolling, Flickity plugin.
 
 
 Experience:
-First time using flexbox instead of float which was used in the first version of this homepage. First time with a little bit of Javascript and JQuery. Being able to incorporate a plugin such as Flickity.
+First time using flexbox instead of float which was used in the first version of this homepage. 
+First time with a little bit of Javascript and JQuery. 
+Being able to incorporate a plugin such as Flickity.
 
 ![](https://s30.postimg.org/wtsjkzyn5/Screen_Shot_2017_02_06_at_22_20_50.png)
 
