@@ -595,7 +595,7 @@ a:hover{
     margin-right: 8px;
 }
 
-.main-nav {
+.main-nav  {
     text-align: center;
     order: 2;
     flex-basis: 50%;

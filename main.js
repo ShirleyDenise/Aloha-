@@ -12,7 +12,7 @@ $("form").submit(function(){
 
         
         $('.list-products').flickity({
-        cellAlign: 'center',
+        cellAlign: 'left',
         contain: true,
         percentPosition: true,
         imagesLoaded: true,
@@ -23,17 +23,19 @@ $("form").submit(function(){
 
 //smooth scrolling
 
-function pageJump(id) {
-       $('html,body').animate({
-                 scrollTop: $(id).offset().top - 150
-
-         }, 'slow');
-};
-$('.main-nav').on('click', function(e) {
-          e.preventDefault();
-                var hashHref = $(this).attr('href');
-
-                pageJump(hashHref);
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
 });
 
 
