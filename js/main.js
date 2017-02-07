@@ -1,5 +1,4 @@
-
- $(function() {
+$(function() {
 
 
 $("form").submit(function(){
