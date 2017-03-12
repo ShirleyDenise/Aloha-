@@ -284,16 +284,20 @@ display: none;
      
  }
 
- /* Menu Products*/
+  /* Menu Products*/
 
- .menu-products {
-     position: relative;
-     margin:0;
-     
- }
+
+.image-cat {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    flex: 0 1 auto;
+    margin: 0;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
+}
 
  .cat-name {
-    position: relative;
     color: white;
     font-size: 20px;
     text-transform: uppercase;
@@ -301,59 +305,51 @@ display: none;
     font-weight: bold;
 }
 
-.image-cat {
-    display: flex;
-    justify-content: center;
-    flex-flow: wrap;
-    margin: 0;
-    
-    
-    
-}
-
 .wide {
     flex: 2 0 100%;
-    padding-top: 50%;
+    padding: 20% 0;
     margin: 0;
     border: 4px solid white;
     
 }
 
  .square {
-     flex-flow: row wrap;
      max-width: 50%;
-     width: 48%;
-     padding-top: 40%;
+     width: 49.2%;
+     padding: 20% 0;
      margin: 0;
      border: 4px solid white;
+     
  }
 
  .men-cat {
     background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url('images/mens-category.jpg')  no-repeat center center;
     background-size: cover, cover;
-    
- } 
+} 
 
 
  .trends-cat {
     background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url('images/trends-category.jpg')  no-repeat center center;
-    background-size: cover, cover; 
+    background-size: cover, cover;
+    border-left: 0;
  }
 
  .glasses-cat {
      background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url('images/glasses-category.jpg')  no-repeat center center;
-     background-size: cover, cover;   
+     background-size: cover, cover;
+     border-right: 0;   
  }
 
 .sale-cat {
     background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url('images/sale-category.jpg')  no-repeat center center;
     background-size: cover, cover;
+    border-left: 0;
 }
 
 .bags-cat{
     background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url('images/bags-category.jpg')  no-repeat center center;
-    background-size: cover, cover; 
-
+    background-size: cover, cover;
+    border-right: 0; 
 }
 
 .women-cat{
@@ -403,7 +399,7 @@ h3 {
     color: #e2574c;
     font-family: "playfair_display_web", serif;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 21px;
 }
 
 
@@ -462,7 +458,6 @@ h3 {
     margin-top: 5%;
     background-color: white;
     border-radius: 20px;
-    
 }
 
 input[type="email"] {
@@ -472,7 +467,6 @@ input[type="email"] {
   margin-left: 10px;
   font-size: 70%;
   outline: 0;
-    
 }
 
 input[type="submit"] {
@@ -502,8 +496,6 @@ input[type="submit"] {
     text-align: center;
     padding: 10% 0;
     line-height: 300%;
-    
-    
 }
 
 .social-media li{
@@ -513,7 +505,6 @@ input[type="submit"] {
     padding: -10px;
     margin-right: 10px; 
     line-height: 50%;
-    
 }
 
 
@@ -560,11 +551,9 @@ a:hover{
 .nav {
     display: flex;
     justify-content: space-between;
-    
 }
 
 .logo-img {
-
     order: 1;
     flex-basis: 25%;
     width: 120px;
@@ -589,29 +578,46 @@ a:hover{
 }
 
 .main-nav ul {
-   border-top: 0;
-   width: 78%;
-   
+    width: 78%;
+    border-top: 0;
 }
 
   /**/
 
+  .cat-name {
+      font-size: 28px;
+  }
+
   .wide {
-    flex: 2 0 50%;
-    padding-top: 24%;
+    flex: 2 0 49.2%;
+    padding: 11% 0;
     margin: 0;
     border: 4px solid white;
-    
 }
 
  .square {
      flex-flow: row wrap;
-     max-width: 50%;
-     width: 20%;
-     padding-top: 24%;
+     flex: 1 0 24%;
+     padding: 11% 0;
      margin: 0;
      border: 4px solid white;
  }
+
+ .men-cat {
+    border-left: 0;
+}
+
+.glasses-cat {
+    border-right: 0;
+} 
+
+.sale-cat {
+    border-left: 0;
+}
+
+.women-cat {
+    border-right: 0;
+}
 
   /*Products*/
 
@@ -622,7 +628,7 @@ a:hover{
 
   /*Footer*/
 
-.footer{
+.footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -634,16 +640,12 @@ a:hover{
     text-align: left;
     padding: 10% 0;
     line-height: 300%;
-    
-    
 }
 
 .contact-footer{
     height: 200px;
     line-height: 300%;
     margin-left: 30px;
-    
-    
 }
 
 .social-media {
@@ -661,14 +663,11 @@ a:hover{
     font-size: 15px;
     padding: 20px;
 }
+
 .social-media a{
     text-decoration: none;
     font-size: 15px;
 }
-
-   
-
-
 }
 
 /* Breakpoints Desk */
@@ -681,32 +680,24 @@ a:hover{
 
 
 .logo-img {
-    
     margin-left: 45px;
     margin-top: 3px;
     margin-bottom: 5px;
     width: 160px;
-    
-    
 }
 
 .main-nav ul {
    width: 65%;
    padding-top: 30px;
    font-size: 18px;
-   
 }
 .main-nav ul {
-
-   font-size: 20px;
-   
+font-size: 20px;
 }
 
 .cart-img {
-    
    margin-right: 42px; 
    width: 63px;
-   
 }
 
 
@@ -723,7 +714,6 @@ a:hover{
     padding-top: 225px;
     margin-top: 10px;
     border: 1px;
-     
 }
 
 .spring {
@@ -738,22 +728,16 @@ a:hover{
     width: 100%;
     text-align: center; 
     display: inline-block;
-  
-    
-    
 }
 
 /*Bio*/
 
 .styles {
     margin-top: 64px;
-    
 }
  
  h2 {
      font-size: 39px;
-     
- 
 }
 
  .styles p {
@@ -765,9 +749,12 @@ a:hover{
      text-align: center;
      display: block;
      line-height: 200%;
-     
-     
  }
+
+ /*Shop*/
+ .cat-name {
+      font-size: 36px;
+  }
 
  /*Products*/
 
@@ -781,8 +768,6 @@ a:hover{
 
     padding: 0px;
     margin-top: 25px;
-    
-   
 }
 
 .i {
@@ -793,7 +778,6 @@ a:hover{
 
 .products, .price {
     margin: 8%;
-    
 }
 
 .product-cat {
@@ -806,9 +790,7 @@ a:hover{
 }
 
 h3 {
-    
-    font-size: 20px;
-    
+    font-size: 24px;
 }
 
 
@@ -835,7 +817,6 @@ h3 {
     padding-top: 18px;
     padding-right: 300px;
     padding-left: 300px;
-   
 }
 
 /*Form Button*/
@@ -846,7 +827,6 @@ h3 {
     width: 430px;
     height: 41px;
     margin-top: 3%;
-    
 }
 
 /*Footer*/
@@ -858,7 +838,7 @@ h3 {
     height: 200px;
     padding-top: 60px;
     padding-bottom: 40px;
-    }
+}
 
 
 
