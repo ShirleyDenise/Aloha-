@@ -630,6 +630,18 @@ a:hover{
     width: 50%;
 }
 
+.product-cat{
+    font-size: 12px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.price {
+    font-size: 16px;
+}
+
 /*Sign-up*/
 
 .sign-up {
@@ -667,7 +679,7 @@ input[type="submit"] {
     background-color: #242424;
     font-family: "playfair_display_web", serif;
     color: white;
-    height: 200px;
+    height: 150px;
     text-align: left;
     padding: 10% 0;
     line-height: 300%;
@@ -675,15 +687,19 @@ input[type="submit"] {
 
 .contact-footer{
     height: 200px;
-    line-height: 300%;
-    margin-left: 30px;
+    line-height: 400%;
+    margin-left: 20px;
+}
+
+.contact-footer p{
+    font-size: 16px;
 }
 
 .social-media {
     display: flex;
     flex-direction: column;
     padding-right: 3%; 
-    font-size: 15px;
+    font-size: 16px;
     min-width: 25px;
 }
 
@@ -691,8 +707,8 @@ input[type="submit"] {
     text-align: left;
     line-height: 30px;
     font-family:"raleway_web", sans-serif;
-    font-size: 15px;
-    padding: 20px;
+    font-size: 16px;
+    padding: 10px;
 }
 
 .social-media a{
@@ -717,10 +733,21 @@ input[type="submit"] {
     width: 160px;
 }
 
+.main-nav {
+    margin-left: 30px;
+}
+
 .main-nav ul {
    width: 65%;
    padding-top: 30px;
-   font-size: 25px;
+}
+
+.main-nav li {
+   margin: 0;
+}
+
+.main-nav a{
+    font-size: 16px;
 }
 
 .cart-img {
@@ -860,44 +887,10 @@ h3 {
 /*Footer*/
 
 .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 200px;
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding: 65px 20px;
 }
 
-
-
-.copyright .contact{
-    font-size: 18px;
+.social-media{
+    padding-right: 5%;
 }
-
-.address{
-    color: #969696;
-    line-height: 140%;
-    font-size: 14px;
-}
-
-.social-media {
-    display: flex;
-    flex-direction: column;
-    padding-right: 100px; 
-    font-size: 15px;
-}
-
-.social-name{
-    text-align: left;
-    line-height: 30px;
-    font-family:"raleway_web", sans-serif;
-    font-size: 15px;
-    padding: 20px;
-}
-.social-media a{
-    text-decoration: none;
-    font-size: 15px;
-}
-
-   
 }   
