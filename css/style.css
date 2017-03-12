@@ -284,6 +284,10 @@ display: none;
     font-weight: bold;
 }
 
+.cat-name a:hover{
+    color: lightgoldenrodyellow;
+}
+
 .wide {
     flex: 2 0 100%;
     padding: 20% 0;
@@ -529,6 +533,7 @@ a:hover{
 .nav {
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 .logo-img {
@@ -536,8 +541,6 @@ a:hover{
     flex-basis: 25%;
     width: 120px;
     margin-left: 13px;
-    
-    
 }
 
 .cart {
@@ -550,14 +553,22 @@ a:hover{
 
 
 .container-main-nav  {
-    text-align: center;
     order: 2;
     flex-basis: 50%;
     border-top: 0;
+    margin-left: 50px;
 }
 
 .main-nav {
+    font-size: 22px;
     width: 78%;
+    margin-top: 16px;
+    margin-left: 0;
+    margin-right: 0px;
+}
+
+.main-nav li {
+    margin-left: 22px;
 }
 
   /*Bio*/
@@ -709,10 +720,7 @@ input[type="submit"] {
 .main-nav ul {
    width: 65%;
    padding-top: 30px;
-   font-size: 18px;
-}
-.main-nav ul {
-font-size: 20px;
+   font-size: 25px;
 }
 
 .cart-img {
