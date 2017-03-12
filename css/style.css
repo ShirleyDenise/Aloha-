@@ -387,7 +387,7 @@ h3 {
     width: 100%;
 }
 
-/*Sign-upr*/
+/*Sign-up*/
 
 .sign-up {
     background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), 
@@ -560,7 +560,22 @@ a:hover{
     width: 78%;
 }
 
-  /**/
+  /*Bio*/
+  .styles{
+      padding: 0 2%;
+      margin: 3.7rem 0;
+  }
+
+  .styles h2{
+      font-size: 38px;
+      margin-bottom: 2rem;
+  }
+
+  .styles p{
+      font-size: 18px;
+  }
+
+  /*Shop*/
 
   .cat-name {
       font-size: 28px;
@@ -603,6 +618,33 @@ a:hover{
     display: inline-block; 
     width: 50%;
 }
+
+/*Sign-up*/
+
+.sign-up {
+    font-size: 20px;
+}
+
+.subscribe-title {
+    font-size: 38px;
+    margin-top: 0;
+}
+
+.subscribe-text {
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.subscribe {
+    width: 65%;
+    height: 45px;
+}
+
+input[type="submit"] {
+    height: 38px;
+}
+
+
 
   /*Footer*/
 
