@@ -1,8 +1,12 @@
+// Email validation
 $(function() {
-
-
 $("form").submit(function(){
-    alert("Thanks for subscribing");
+  var valid_email = $('input[name=email-address]').val();
+    if( /(.+)@(.+){2,}\.(.+){2,}/.test(valid_email) ){
+      alert("Thanks for subscribing");
+    } else {
+      alert("Please enter a valid email address");
+    }
 });
 
 
