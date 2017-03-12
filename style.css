@@ -188,7 +188,6 @@ display: none;
 .main-nav {
     position: relative;
     text-align: center;
-    border-top: 1px solid #d7d7d7;
     width: 100%;
     order: 3;
     border: 0;
@@ -198,10 +197,9 @@ display: none;
    display: flex;
    justify-content: space-around;
    text-align: center;
-   padding-top: 0.8rem;
-   padding-bottom: 0.3rem;
    width: 65%;
    margin-left: 18%;
+   border-top: 1px solid #d7d7d7;
    
    
    
@@ -591,7 +589,7 @@ a:hover{
 }
 
 .main-nav ul {
-
+   border-top: 0;
    width: 78%;
    
 }
